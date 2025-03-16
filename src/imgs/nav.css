@@ -1,0 +1,13 @@
+nav{
+    display: flex;
+}
+button{
+    background-color: blue;
+}
+.t1{
+    color: rgba(74, 85, 104, 1);
+    font-size: 18px;
+}
+.cir{
+    margin-left: 300px;
+}

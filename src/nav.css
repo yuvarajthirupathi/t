@@ -1,0 +1,343 @@
+nav{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid whitesmoke;
+}
+.but1{
+    background-image: linear-gradient(rgba(247, 102, 128, 1),rgba(87, 0, 123, 1));
+    color:white;
+}
+ul{
+    display: flex;
+    margin-left: 300px;
+    margin-right: 100px;
+    gap:2px
+}
+.but1{
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 100px;
+}
+li{
+    width: 150px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.but2{
+    background-color: rgba(87, 0, 123, 1);
+    color: white;
+    height: 50px;
+    width: 200px;
+    margin-top: 50px;
+}
+.m1{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 20px 50px;
+    
+    font-size: 25px;
+    margin: 100px;
+    background-color: 3px solid whitesmoke;
+    
+}
+.p1{
+    width: 520px;
+    height: 142px;
+   
+
+}
+.p2{
+    margin-top: 20px;
+}
+.m11{
+ 
+    font-weight: 200;
+}
+.pc1{
+    color: rgba(87, 0, 123, 1);
+}
+.t1{
+    color: rgba(74, 85, 104, 1);
+    font-size: 18px;}
+.im1{
+    width: 800px;
+  
+
+}
+.b1{
+    background-color: rgba(231, 218, 237, 1);
+    
+}
+.bt1{
+
+    height: 100px;
+    width: 200px;
+    background-color: black;
+}
+.order{
+    display: flex;
+    justify-content: space-evenly;
+}
+.carousel-inner{
+    height: 200px;
+    width: 100px;
+}
+.services-carousel {
+    text-align: center;
+    padding: 40px;
+    background: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  .services-carousel h2 {
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #222;
+  }
+  
+  .services-carousel .carousel {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .services-carousel .carousel-inner {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease;
+    height: 400px;
+   
+  }
+  
+  .services-carousel .carousel-item {
+    width: 30%;
+    font-size: 40px;
+
+    padding: 20px;
+    flex-shrink: 0;
+  }
+  
+  .services-carousel .card {
+    background: #fff;
+    padding: 20px;
+    height: 300px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+  }
+  
+  .services-carousel .icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .services-carousel .title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .services-carousel .desc {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  /* Hide radio buttons */
+  .services-carousel input[name="slider"] {
+    display: none;
+  }
+  
+  /* Slide Transitions */
+  .services-carousel #slide1:checked ~ .carousel-inner {
+    transform: translateX(0);
+  }
+  .services-carousel #slide2:checked ~ .carousel-inner {
+    transform: translateX(-20%);
+  }
+  .services-carousel #slide3:checked ~ .carousel-inner {
+    transform: translateX(-40%);
+  }
+  .services-carousel #slide4:checked ~ .carousel-inner {
+    transform: translateX(-60%);
+  }
+  .services-carousel #slide5:checked ~ .carousel-inner {
+    transform: translateX(-80%);
+  }
+  
+  /* Pagination Styling */
+  .services-carousel .carousel-nav {
+    margin-top: 20px;
+  }
+  
+  .services-carousel .carousel-nav label {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 5px;
+    border-radius: 50%;
+    background: #ccc;
+    cursor: pointer;
+  }
+  
+  .services-carousel input#slide1:checked ~ .carousel-nav label[for="slide1"],
+  .services-carousel input#slide2:checked ~ .carousel-nav label[for="slide2"],
+  .services-carousel input#slide3:checked ~ .carousel-nav label[for="slide3"],
+  .services-carousel input#slide4:checked ~ .carousel-nav label[for="slide4"],
+  .services-carousel input#slide5:checked ~ .carousel-nav label[for="slide5"] {
+    background: #d600aa;
+  }
+  
+  /* Active card highlighting */
+  .services-carousel .carousel-item .card {
+    opacity: 0.6;
+    transform: scale(0.95);
+  }
+  
+  .services-carousel #slide1:checked ~ .carousel-inner .carousel-item:nth-child(1) .card,
+  .services-carousel #slide2:checked ~ .carousel-inner .carousel-item:nth-child(2) .card,
+  .services-carousel #slide3:checked ~ .carousel-inner .carousel-item:nth-child(3) .card,
+  .services-carousel #slide4:checked ~ .carousel-inner .carousel-item:nth-child(4) .card,
+  .services-carousel #slide5:checked ~ .carousel-inner .carousel-item:nth-child(5) .card {
+    opacity: 1;
+    border: 2px solid #d600aa;
+    transform: scale(1);
+  }
+  .cirle{
+    /* display:relative ; */
+    margin-top: -35px;
+    clip-path: inset(50% 0% 0% 0%);
+    margin-left:50px;
+  }
+  .ti{
+    
+  }
+  .cirl{
+    margin-top: 70px;
+  }
+  .main{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .cool{
+    color: rgba(87, 0, 123, 1);
+    
+
+  }
+  .ki{
+    margin-left:200px ;
+  }
+  .add{
+    height: 150px;
+    width: 100%;
+    margin-top: -80px;
+  }
+  .hell{
+    margin-left: 200px;
+  }
+  .cirle1{
+
+    clip-path: inset(0% 0% 50% 0%);
+    margin-left: 900px;
+    margin-bottom: 40px;
+  }
+  .joker{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .com{
+    display: flex;
+    justify-content:space-evenly;
+  }
+  .cut{
+    text-align: center;
+  }
+  .cu{
+    margin-left: 30%;
+  }
+  .mi1{
+    display: flex;
+    
+    background-color:rgba(241, 242, 255, 1);
+    gap: 50px;
+    margin-left:150px ;
+  }
+  .mi2{
+    margin-top: 3px;
+    display: flex;
+  
+    background-color: rgba(240, 255, 247, 1);
+    gap: 50px;
+    margin-left:150px ;
+
+  }
+  .mi3{
+    margin-top: 3px;
+    display: flex;
+    
+    background-color: rgba(255, 244, 244, 1);
+    gap: 50px;
+    margin-left:150px ;
+  }
+  .mii1{
+    width: 600px;
+  }
+  .en{
+    text-align: center;
+  }
+  .all{
+    margin-top:100px;
+    background-color: rgba(247, 247, 250, 1);
+  }
+  .read{
+   
+    margin-right: 50px;
+  }
+  .Ci1{
+    display: flex;
+    
+   
+    gap: 50px;
+    margin-left:150px ;
+  }
+  .Ci2{
+    margin-top: 3px;
+    display: flex;
+  
+    
+    gap: 50px;
+    margin-left:150px ;
+
+  }
+  .Ci3{
+    margin-top: 3px;
+    display: flex;
+    
+  
+    gap: 50px;
+    margin-left:150px ;
+  }
+  .Cii1{
+    width: 1000px;
+    
+  }
+  .log0{
+    display: flex;
+
+  }
+  .h1{
+    display:flex;
+  }
+  .si{
+    font-weight: 100;
+  }
+  .hi{
+    text-align: center;
+  }
+  .hi1{
+    margin-left: 300px;
+  }
+  .hi2{
+    margin-left: 800px;
+  }
