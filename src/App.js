@@ -1,6 +1,7 @@
 import './App.css';
 import Nav from './nav.jsx';
 import Nav1 from './body1.jsx';
+import Nav11 from './body11.jsx';
 import Nav2 from './body2.jsx';
 import Nav3 from './body3.jsx';
 import Nav4 from './body4.jsx';
@@ -19,6 +20,7 @@ function App() {
     <>
     <Nav />
     <Nav1 />
+    <Nav11 />
     <Nav2 />
     <Nav3 />
     <Nav4 />

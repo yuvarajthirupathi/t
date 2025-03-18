@@ -29,7 +29,7 @@ function FeaturedBlogs() {
               <img src={item.image} alt="Blog" style={{ width: '100%', height: '150px', }} />
               <div style={{ padding: '10px' }}>
                 <p style={{ fontSize: '14px', marginBottom: '10px', color: '#333' }}>{item.title}</p>
-                <a href="#" style={{ color: 'purple', textDecoration: 'none', fontWeight: 'bold', fontSize: '13px' }}>Read More →</a>
+                <a href=" " style={{ color: 'purple', textDecoration: 'none', fontWeight: 'bold', fontSize: '13px' }}>Read More →</a>
               </div>
             </div>
           );
@@ -39,7 +39,7 @@ function FeaturedBlogs() {
       {/* CTA Section */}
       <div style={{ marginTop: '60px', padding: '60px 30px', borderRadius: '12px', background: 'linear-gradient(to right, #f8f9fa, #e9ecef)', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <h3 style={{ margin: 0 }}>Hire the best developers and designers around!</h3>
-        <a href="#" style={{ padding: '20px 80px', background: 'linear-gradient(to right, orange, #ff5858)', color: '#fff', textDecoration: 'none', fontWeight: 'bold', }}>
+        <a href=" " style={{ padding: '20px 80px', background: 'linear-gradient(to right, orange, #ff5858)', color: '#fff', textDecoration: 'none', fontWeight: 'bold', }}>
           Hire Top Developers
         </a>
       </div>
