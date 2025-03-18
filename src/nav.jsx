@@ -7,7 +7,7 @@ function nav(){
     return(
         
         <>
-        
+            {/* code to commit after deploy  */}
             <nav>
             <img src={imd} alt="king"/>
             <ul>
