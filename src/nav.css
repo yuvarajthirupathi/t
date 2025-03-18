@@ -341,3 +341,18 @@ li{
   .hi2{
     margin-left: 800px;
   }
+  .hero1{
+    background-image:linear-gradient(#E2E2E2,#C9D6FF);
+    height: 200px;
+    
+    border-radius: 20px;
+  }
+  .hello2{
+    font-size: 27px;
+    text-align: center;
+  }
+ 
+  
+  .hello3{
+    padding:30px;
+  }
